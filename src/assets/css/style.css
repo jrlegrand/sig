@@ -1,0 +1,63 @@
+body {
+	font-family: 'Roboto Slab', serif;
+	color: #333;
+}
+
+input {
+	font-family: 'Roboto Slab', serif;
+	font-size: 30px;
+	color: #333;
+	height: 60px;
+	width: 100%;
+	min-width: 100%;
+	padding: 0;
+	border-radius: 0;
+	line-height: 70px;
+	background-color: white;
+	border: none;
+	outline: none;
+	border-bottom: 3px solid #333333;
+	margin-bottom: 10px;
+}
+
+textarea {
+	font-family: 'Roboto Slab', serif;
+	font-size: 20px;
+	color: #333;
+	height: 200px;
+	width: 100%;
+	min-width: 100%;
+	padding: 0;
+	border-radius: 0;
+	background-color: white;
+	border: none;
+	outline: none;
+	border-bottom: 3px solid #333333;
+	margin-bottom: 10px;
+}
+
+ul, li {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+pre {
+    white-space: pre-wrap;
+}
+
+.sig-container {
+	margin-left: auto;
+	margin-right: auto;
+	padding: 50px;
+	max-width: 1000px;
+}
+
+.json {
+	font-family: 'Roboto Mono', monospace;
+	font-size: 14px;
+	background: transparent;
+	border: 0;
+	margin: 0;
+	padding: 0;
+}

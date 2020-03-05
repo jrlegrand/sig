@@ -1,0 +1,24 @@
+<div class="container">
+	<h3>Sig Export</h3>
+	<div class="row" style="border-bottom: 2px #eee solid; margin-bottom: 10px; padding-bottom: 10px;" *ngFor="let s of sig">
+		<div class="col-xs-3">
+			<ul>
+				<li *ngFor="let q of s" class="">{{q.text}}</li>
+			</ul>
+		</div>
+		<div class="col-xs-3">
+			<div *ngFor="let q of s">
+				<div class="col-xs-12" style="color:#4CAF50;">
+					<strong>{{q.stdText}}</strong>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-6" style="max-height: 350px; overflow: auto;">
+			<div *ngFor="let q of s">
+				<div class="col-xs-12">
+					<pre class="json">{{q.standardized|json}}</pre>
+				</div>			
+			</div>
+		</div>
+	</div>
+</div>
