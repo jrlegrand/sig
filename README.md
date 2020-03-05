@@ -1,7 +1,5 @@
 # Sig
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.1.
-
 **Live demo:** [https://legrand.io/sig/](https://legrand.io/sig/)
 
 This medication sig parser takes free text sigs (medication instructions) and parses out the following elements:
@@ -15,6 +13,8 @@ This medication sig parser takes free text sigs (medication instructions) and pa
 After parsing out these elements, and taking into consideration caveats specific to medication sigs (e.g. if NTE 5 tablets per day exists in the sig, it doesn't parse 5 tablets per day as the dose / frequency -- it parses it as the max dose per day), it re-combines and normalizes the sig into a format that a computer can understand.  It goes even further by converting that normalized, structured sig into the [FHIR Dosage](https://www.hl7.org/fhir/dosage.html) standard resource which can be used to transmit the sig between electronic health records.
 
 NOTE: The parser code has been removed from this repository.  If you would like more information, including licensing information, please contact [jrlegrand@gmail.com](mailto:jrlegrand@gmail.com).
+
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.1.
 
 ## Development server
 
