@@ -2,8 +2,6 @@
 
 **Website:** [https://parserx.io](https://parserx.io)
 
-**Live demo:** [https://legrand.io/sig](https://legrand.io/sig)
-
 This medication sig parser takes free text sigs (medication instructions) and parses out the following elements:
 * Method (take)
 * Dose (1 tablet)
