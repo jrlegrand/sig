@@ -5,6 +5,7 @@
 This medication sig parser takes free text sigs (medication instructions) and parses out the following elements:
 * Method (take)
 * Dose (1 tablet)
+* Strength (10 mg)
 * Route (by mouth)
 * Frequency (every 12 hours)
 * Duration (for 10 days)
